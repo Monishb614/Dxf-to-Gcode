@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dxf to Gcode</title>
+</head>
+<body>
+    <nav class="logo">
+        <div><img src="logo.jpeg" width="660">GIMS</div>
+        <div class="head">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Abt.html">About us</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav><br><br><br><br>
+    <div class="form">
+       
+        <h2>Gcode data input</h2>
+
+            <label for="type">DXF to Gcode</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+            <br>
+            <label for="measurement">Nesting of Dxf:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+            <br>
+            <br>
+            <label for="Choose">DXF arc as polyline</label>
+            <select name="unit" id="unit">
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="guests">Kerf distance:</label>
+            <input type="number" id="guests" name="guests" min="1" required><br><br>
+            
+            <label for="guests">Lead in distance:</label>
+            <input type="number" id="guests" name="guests" min="1" required><br><br>
+
+            <label for="guests">Lead out distance:</label>
+            <input type="number" id="guests" name="guests" min="1" required><br><br>
+
+            <label form="cooordinates">Coordinates:</label>
+            <select name="unit" id="unit">
+                <option value="abd">Absolute</option>
+                <option value="inc">Incremental</option>
+                <option value="abc">Absolute-Incremental values</option>
+            </select>
+            <br><br>
+
+            <label for="code">M code on:</label>
+            <select name="unit" id="unit">
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+            </select>
+            <br>
+            <br>
+            <div class="but">
+            <button type="submit">Run</button>
+            </div>
+        </form>
+    </div>
+<br><br><hr><br>
+<div class="pages">  
+    <h3>Customer Care</h3>
+    <a href="index.html">Home</a>|
+    <a href="Abt.html">About us</a>|
+    <a href="Service.html">Service</a>|
+    <a href="Contact.html">Contact</a>
+    <br><br>
+</div>
+</body>
+<footer><br>
+    <p><a href="#">Back to top</a></p>
+    <p>Copyright&copy; 2023 Dxf to Gcode. All rights reserved.</p>
+</footer>
+</html>
